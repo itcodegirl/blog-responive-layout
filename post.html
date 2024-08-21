@@ -13,14 +13,22 @@
 		<nav>
 			<a href="index.html">Home</a>
 			<a href="about.html">About</a>
-
 		</nav>
-		<title id="title">Welcome to the CodeGirlCanvas</title>
-
+		<h1 id="post-title">Post Title</h1>
 	</header>
 
-	<main id="posts-container">
-		<!-- Posts will be dynamically rendered here -->
+	<main>
+		<article id="post-content">
+			<!-- Post content will be dynamically loaded -->
+		</article>
+
+		<!-- Comment section -->
+		<section id="comments-section">
+			<h3>Comments</h3>
+			<div id="comments"></div>
+			<textarea id="new-comment" placeholder="Leave a comment"></textarea>
+			<button id="submit-comment">Submit</button>
+		</section>
 	</main>
 
 	<footer>
