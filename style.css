@@ -1,5 +1,19 @@
+#title {
+	display: block;
+	text-align: center;
+	font-weight: 900;
+	padding: 10px;
+	font-size: 50px;
+	line-height: 55px;
+	margin: 30px;
+	color: rgb(217, 133, 217);
+	text-shadow: 3px 3px 3px black, 0 0 25px blue, 0 0 5px rgba(128, 0, 128, 0.841);
+}
+
 footer {
-	background-color: cadetblue;
+	background-color: rgb(217, 133, 217);
 	padding: 10px;
 	color: #fff;
 	border-radius: 4px;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(134, 5, 134);
+}
